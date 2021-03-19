@@ -1,0 +1,151 @@
+body{
+	background: url(imagen1.jpg);
+}
+
+@font-face{
+	font-family: mama;
+	src: url(viernes.otf);
+}
+@font-face{
+	font-family:ricardo ;
+	src: url(titulo.otf);
+}
+@font-face{
+	font-family: jero;
+	src: url(segundotexto.otf);
+}
+@font-face{
+	font-family: salo;
+	src: url(tercertexto.ttf);
+}
+@font-face{
+	font-family: mariana;
+	src: url(p1.otf)
+}
+.cuartotexto{
+	font-family: mariana;
+	font-size: 30px;
+}
+.imagen5{
+	position: absolute;
+	top: 320px;
+	left: 390px;
+	width: 259px;
+	height: 194px;
+	background: url('tambor.png')
+
+}
+.imagen4{
+	position: absolute;
+	width: 225px;
+	height: 225px;
+	top: 220px;
+	left: 400px;
+	background: url('pito (1).png');
+}
+.imagen6{
+	position: absolute;
+	width: 225px;
+	height: 225px;
+	top: 320px;
+	left: 350px;
+	background: url('guitar.png');
+	z-index: 100;
+	transform: rotate(-90deg);
+}
+.viernes{
+	position: absolute;
+	width: 100px;
+	height: 170px;
+	top: 350px;
+	left: 200px;
+	background: url('cnv.png');
+}
+.chile{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top: 10px;
+	left: 700px;
+	background: url('chilebandera.jpg');
+	border-radius: 400px;
+	border: solid 8px white;
+}
+.colombia{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top: 130px;
+	left: 700px;
+	background: url('banderadecolombia.png');
+	border-radius: 400px;
+	border: solid 8px white;
+}
+.bolivia{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top: 230px;
+	left: 700px;
+	background: url('bolivia.jpg');
+	border-radius: 400px;
+	border: solid 8px white;
+}
+.ecuador{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top: 330px;
+	left: 700px;
+	background: url('ecu.jpg');
+	border-radius: 400px;
+	border: solid 8px white;
+}
+.paraguay{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top: 430px;
+	left: 700px;
+	background: url('paraguay.jpg');
+	border-radius: 400px;
+	border: solid 8px white;
+}
+.uruguay{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	top: 530px;
+	left: 700px;
+	background: url('uru.jpg');
+	border-radius: 400px;
+	border: solid 8px white;
+}
+.hijo{
+	font-family: ricardo;
+	font-size: 60px;
+}
+.segundotexto{
+	font-family: jero;
+	font-size: 45px;
+}
+.tercertexto{
+	font-family: salo;
+	font-size: 60px;
+}
+.margen1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 645px;
+	background: black;
+}
+.margen2{
+	position: absolute;
+	top: 0px;
+	left: 846px;
+	width: 150px;
+	height: 645px;
+	background: black;
+}
